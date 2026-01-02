@@ -1,0 +1,121 @@
+{
+  "languageSwitcher": {
+    "label": "言語",
+    "options": {
+      "en": "英語",
+      "zh": "中国語",
+      "ja": "日本語"
+    }
+  },
+  "common": {
+    "brand": "Grid テンプレート",
+    "links": {
+      "terms": "利用規約",
+      "privacy": "プライバシーポリシー"
+    }
+  },
+  "home": {
+    "hero": {
+      "altLogo": "Next.js ロゴ",
+      "heading": "Next.js 15 を Cloudflare Workers にデプロイ",
+      "description": "Grid は tRPC・Better Auth・Resend を備えた本番運用向け OpenNext テンプレートを提供します。",
+      "actions": {
+        "signIn": "ログイン",
+        "signUp": "アカウントを作成"
+      },
+      "steps": {
+        "stepOne": "<label>ステップ 1:</label> <code>src/app/page.tsx</code> を編集して始めましょう。",
+        "stepTwo": "<label>ステップ 2:</label> 保存すると Turbopack が即座にリフレッシュします。",
+        "stepThree": "<label>ステップ 3:</label> 下の <code>tRPC</code> Playground を調整しましょう。"
+      }
+    },
+    "helpful": {
+      "title": "便利なパス",
+      "labels": {
+        "api": "API ルーター",
+        "hooks": "クライアントフック",
+        "http": "HTTP ハンドラー"
+      }
+    },
+    "footer": {
+      "learn": "Next.js を学ぶ",
+      "visit": "nextjs.org へ →",
+      "altFile": "ファイルアイコン",
+      "altGlobe": "地球アイコン"
+    }
+  },
+  "trpc": {
+    "badge": "リアルタイム API デモ",
+    "title": "tRPC Playground",
+    "description": "ニックネームを入力すると tRPC のレスポンスがすぐに確認できます。",
+    "nicknameLabel": "ニックネーム",
+    "nicknamePlaceholder": "例: colanns",
+    "helloResult": {
+      "label": "Hello クエリ結果",
+      "loading": "読み込み中…",
+      "empty": "データはまだありません"
+    },
+    "random": {
+      "label": "ランダム値",
+      "refresh": "今すぐ更新",
+      "refreshing": "更新中…",
+      "generatedAt": "生成時刻: {time}",
+      "prompt": "更新を押してクエリを実行してください。"
+    }
+  },
+  "auth": {
+    "shell": {
+      "brand": "Grid テンプレート"
+    },
+    "signInPage": {
+      "title": "お帰りなさい",
+      "description": "Grid プロジェクトと Cloudflare デプロイを管理するにはログインしてください。",
+      "footer": "アカウントが必要ですか？<signup>新規登録</signup>"
+    },
+    "signUpPage": {
+      "title": "アカウントを作成",
+      "description": "Better Auth・Resend メール・Cloudflare Workers でより速く開発しましょう。",
+      "footer": "すでに登録済みですか？<signin>ログイン</signin>"
+    },
+    "signInForm": {
+      "divider": "またはメールで続行",
+      "emailLabel": "メールアドレス",
+      "emailPlaceholder": "you@example.com",
+      "passwordLabel": "パスワード",
+      "rememberMe": "ログイン情報を保存",
+      "forgotPassword": "パスワードを忘れた場合は管理者に連絡してください。",
+      "submit": "ログイン",
+      "loading": "ログイン中…",
+      "error": "ログインできませんでした。",
+      "genericError": "問題が発生しました。しばらくしてから再試行してください。"
+    },
+    "signUpForm": {
+      "divider": "またはメールで登録",
+      "nameLabel": "氏名",
+      "namePlaceholder": "Ada Lovelace",
+      "emailLabel": "メールアドレス",
+      "emailPlaceholder": "you@example.com",
+      "passwordLabel": "パスワード",
+      "passwordPlaceholder": "安全なパスワードを作成してください",
+      "confirmPasswordLabel": "パスワードを確認",
+      "confirmPasswordPlaceholder": "もう一度入力してください",
+      "rememberMe": "このデバイスでログインしたままにする",
+      "submit": "アカウントを作成",
+      "loading": "作成中…",
+      "mismatch": "パスワードが一致しません。",
+      "error": "アカウントを作成できませんでした。",
+      "success": "アカウントを作成しました。メールを確認して続行してください。",
+      "genericError": "問題が発生しました。しばらくしてから再試行してください。",
+      "terms": "続行することで <terms>利用規約</terms> と <privacy>プライバシーポリシー</privacy> に同意したことになります。"
+    },
+    "oauth": {
+      "providers": {
+        "github": "GitHub で続行",
+        "google": "Google で続行"
+      },
+      "error": "OAuth フローを開始できませんでした。",
+      "networkError": "認証サーバーに接続できませんでした。",
+      "hint": "better-auth で OAuth プロバイダーを設定するとこれらのボタンが利用できます。"
+    }
+  }
+}

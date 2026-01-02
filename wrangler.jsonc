@@ -1,0 +1,44 @@
+/**
+ * For more details on how to configure Wrangler, refer to:
+ * https://developers.cloudflare.com/workers/wrangler/configuration/
+ */
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "gridya-dev",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2025-12-01",
+  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  "assets": {
+    "binding": "ASSETS",
+    "directory": ".open-next/assets"
+  },
+  "d1_databases": [
+    {
+      // Replace `database_name` and `database_id` with your Cloudflare D1 instance details.
+      "binding": "DB",
+      "database_name": "grid-dev",
+      "database_id": "4f3f52e6-9b4b-46e4-add8-28a0df831479",
+      "migrations_dir": "drizzle"
+    }
+  ],
+  "images": {
+    // Enable image optimization
+    // see https://opennext.js.org/cloudflare/howtos/image
+    "binding": "IMAGES"
+  },
+  "services": [
+    {
+      // Self-reference service binding, the service name must match the worker name
+      // see https://opennext.js.org/cloudflare/caching
+      "binding": "WORKER_SELF_REFERENCE",
+      "service": "gridya-dev"
+    }
+  ],
+  "observability": {
+    "enabled": true
+  },
+  "vars": {
+    // Non-secret sender identity for Resend. Set RESEND_API_KEY via `wrangler secret put`.
+    "RESEND_FROM_EMAIL": "Grid <no-reply@example.com>"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "languageSwitcher": {
+    "label": "语言",
+    "options": {
+      "en": "英语",
+      "zh": "中文",
+      "ja": "日语"
+    }
+  },
+  "common": {
+    "brand": "Grid 模板",
+    "links": {
+      "terms": "服务条款",
+      "privacy": "隐私政策"
+    }
+  },
+  "home": {
+    "hero": {
+      "altLogo": "Next.js 标志",
+      "heading": "将 Next.js 15 部署到 Cloudflare Workers",
+      "description": "Grid 提供开箱即用的 OpenNext 模板，内置 tRPC、Better Auth 与 Resend。",
+      "actions": {
+        "signIn": "登录",
+        "signUp": "创建账号"
+      },
+      "steps": {
+        "stepOne": "<label>步骤 1：</label> 从编辑 <code>src/app/page.tsx</code> 开始。",
+        "stepTwo": "<label>步骤 2：</label> 保存后即可看到 Turbopack 的即时刷新。",
+        "stepThree": "<label>步骤 3：</label> 调整下方的 <code>tRPC</code> playground。"
+      }
+    },
+    "helpful": {
+      "title": "常用路径",
+      "labels": {
+        "api": "API 路由",
+        "hooks": "客户端 hooks",
+        "http": "HTTP 处理器"
+      }
+    },
+    "footer": {
+      "learn": "学习 Next.js",
+      "visit": "访问 nextjs.org →",
+      "altFile": "文件图标",
+      "altGlobe": "地球图标"
+    }
+  },
+  "trpc": {
+    "badge": "实时 API 演示",
+    "title": "tRPC Playground",
+    "description": "输入任意昵称即可实时看到 tRPC 返回的数据。",
+    "nicknameLabel": "你的昵称",
+    "nicknamePlaceholder": "例如：colanns",
+    "helloResult": {
+      "label": "Hello 查询结果",
+      "loading": "加载中…",
+      "empty": "暂无数据"
+    },
+    "random": {
+      "label": "随机数",
+      "refresh": "立即刷新",
+      "refreshing": "正在刷新…",
+      "generatedAt": "生成时间：{time}",
+      "prompt": "点击刷新来触发查询。"
+    }
+  },
+  "auth": {
+    "shell": {
+      "brand": "Grid 模板"
+    },
+    "signInPage": {
+      "title": "欢迎回来",
+      "description": "登录以管理你的 Grid 项目和 Cloudflare 部署。",
+      "footer": "还没有账号？<signup>注册</signup>"
+    },
+    "signUpPage": {
+      "title": "创建账号",
+      "description": "使用 Better Auth、Resend 邮件与 Cloudflare Workers 更快交付。",
+      "footer": "已经注册？<signin>登录</signin>"
+    },
+    "signInForm": {
+      "divider": "或使用邮箱继续",
+      "emailLabel": "邮箱",
+      "emailPlaceholder": "you@example.com",
+      "passwordLabel": "密码",
+      "rememberMe": "记住我",
+      "forgotPassword": "忘记密码？请联系你的工作区管理员。",
+      "submit": "登录",
+      "loading": "正在登录…",
+      "error": "无法登录。",
+      "genericError": "出错了，请稍后再试。"
+    },
+    "signUpForm": {
+      "divider": "或使用邮箱注册",
+      "nameLabel": "姓名",
+      "namePlaceholder": "Ada Lovelace",
+      "emailLabel": "邮箱",
+      "emailPlaceholder": "you@example.com",
+      "passwordLabel": "密码",
+      "passwordPlaceholder": "创建一个安全的密码",
+      "confirmPasswordLabel": "确认密码",
+      "confirmPasswordPlaceholder": "再次输入密码",
+      "rememberMe": "在此设备保持登录",
+      "submit": "创建账号",
+      "loading": "正在创建账号…",
+      "mismatch": "两次输入的密码不一致。",
+      "error": "无法创建账号。",
+      "success": "账号已创建，请查收邮箱完成验证。",
+      "genericError": "出错了，请稍后再试。",
+      "terms": "继续操作即表示你同意我们的 <terms>服务条款</terms> 和 <privacy>隐私政策</privacy>。"
+    },
+    "oauth": {
+      "providers": {
+        "github": "使用 GitHub 登录",
+        "google": "使用 Google 登录"
+      },
+      "error": "无法启动 OAuth 流程。",
+      "networkError": "无法连接认证服务器。",
+      "hint": "在 better-auth 中配置 OAuth 提供商即可启用这些按钮。"
+    }
+  }
+}

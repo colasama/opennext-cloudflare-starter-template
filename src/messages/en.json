@@ -1,0 +1,121 @@
+{
+  "languageSwitcher": {
+    "label": "Language",
+    "options": {
+      "en": "English",
+      "zh": "中文",
+      "ja": "日本語"
+    }
+  },
+  "common": {
+    "brand": "Grid Template",
+    "links": {
+      "terms": "terms",
+      "privacy": "privacy policy"
+    }
+  },
+  "home": {
+    "hero": {
+      "altLogo": "Next.js logo",
+      "heading": "Deploy Next.js 15 to Cloudflare Workers",
+      "description": "Grid ships a production-ready OpenNext template with tRPC, Better Auth, and Resend.",
+      "actions": {
+        "signIn": "Sign in",
+        "signUp": "Create account"
+      },
+      "steps": {
+        "stepOne": "<label>Step 1:</label> Start by editing <code>src/app/page.tsx</code>.",
+        "stepTwo": "<label>Step 2:</label> Save to watch Turbopack refresh instantly.",
+        "stepThree": "<label>Step 3:</label> Tweak the <code>tRPC</code> playground below."
+      }
+    },
+    "helpful": {
+      "title": "Helpful paths",
+      "labels": {
+        "api": "API router",
+        "hooks": "Client hooks",
+        "http": "HTTP handler"
+      }
+    },
+    "footer": {
+      "learn": "Learn Next.js",
+      "visit": "Go to nextjs.org →",
+      "altFile": "File icon",
+      "altGlobe": "Globe icon"
+    }
+  },
+  "trpc": {
+    "badge": "Realtime API demo",
+    "title": "tRPC Playground",
+    "description": "Type any nickname to see tRPC responses stream back instantly.",
+    "nicknameLabel": "Your nickname",
+    "nicknamePlaceholder": "e.g. colanns",
+    "helloResult": {
+      "label": "Hello query result",
+      "loading": "Loading...",
+      "empty": "No data yet"
+    },
+    "random": {
+      "label": "Random number",
+      "refresh": "Refresh now",
+      "refreshing": "Refreshing...",
+      "generatedAt": "Generated at: {time}",
+      "prompt": "Press refresh to trigger the query."
+    }
+  },
+  "auth": {
+    "shell": {
+      "brand": "Grid Template"
+    },
+    "signInPage": {
+      "title": "Welcome back",
+      "description": "Sign in to manage your Grid projects and Cloudflare deployments.",
+      "footer": "Don’t have an account? <signup>Sign up</signup>"
+    },
+    "signUpPage": {
+      "title": "Create your account",
+      "description": "Start shipping faster with Better Auth, Resend-powered emails, and Cloudflare Workers.",
+      "footer": "Already registered? <signin>Sign in</signin>"
+    },
+    "signInForm": {
+      "divider": "or continue with email",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@example.com",
+      "passwordLabel": "Password",
+      "rememberMe": "Remember me",
+      "forgotPassword": "Forgot password? Contact your workspace admin.",
+      "submit": "Sign in",
+      "loading": "Signing in…",
+      "error": "Unable to sign in.",
+      "genericError": "Something went wrong. Please try again."
+    },
+    "signUpForm": {
+      "divider": "or sign up with email",
+      "nameLabel": "Full name",
+      "namePlaceholder": "Ada Lovelace",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@example.com",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "Create a strong password",
+      "confirmPasswordLabel": "Confirm password",
+      "confirmPasswordPlaceholder": "Repeat your password",
+      "rememberMe": "Stay signed in on this device",
+      "submit": "Create account",
+      "loading": "Creating account…",
+      "mismatch": "Passwords do not match.",
+      "error": "Unable to create your account.",
+      "success": "Account created. Please verify your email to continue.",
+      "genericError": "Something went wrong. Please try again.",
+      "terms": "By continuing you agree to our <terms>terms</terms> and <privacy>privacy policy</privacy>."
+    },
+    "oauth": {
+      "providers": {
+        "github": "Continue with GitHub",
+        "google": "Continue with Google"
+      },
+      "error": "Unable to start OAuth flow.",
+      "networkError": "Failed to contact the authentication server.",
+      "hint": "Configure OAuth providers in better-auth to enable these buttons."
+    }
+  }
+}

@@ -1,0 +1,7 @@
+# lefthook.yml
+pre-commit:
+  parallel: true
+  commands:
+    biome-check:
+      glob: "*.{js,ts,jsx,tsx,json,css}"
+      run: pnpm lint && pnpm format && git update-index --again
